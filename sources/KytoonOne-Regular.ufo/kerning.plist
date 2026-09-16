@@ -1280,7 +1280,7 @@
       <key>public.kern2.guilsinglleft</key>
       <integer>-5</integer>
       <key>public.kern2.h</key>
-      <integer>-45</integer>
+      <integer>0</integer>
       <key>public.kern2.j</key>
       <integer>20</integer>
       <key>public.kern2.n</key>
