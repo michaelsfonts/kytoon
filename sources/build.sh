@@ -5,8 +5,9 @@
 #   ./sources/build.sh        (run from anywhere)
 #
 # Steps:
-#   1. Heal features.fea if a Glyphs export blanked the @Uppercase class,
-#      so the build can't fail on "Empty glyph class in contextual substitution".
+#   1. Heal features.fea after a bad Glyphs export: restore a blanked
+#      @Uppercase class, and repair the frac feature if Glyphs hoisted its
+#      rules into a Prefix block. Either one otherwise kills the build.
 #   2. Build otf / ttf / woff2 via gftools-builder (venv/bin is put on PATH so
 #      the fontmake subprocess it spawns is found).
 #   3. Generate the woff (gftools only emits woff2).
