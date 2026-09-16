@@ -4519,11 +4519,6 @@
       <key>public.kern2.x</key>
       <integer>-5</integer>
     </dict>
-    <key>r</key>
-    <dict>
-      <key>public.kern2.n</key>
-      <integer>-5</integer>
-    </dict>
     <key>racute</key>
     <dict>
       <key>public.kern2.braceright</key>
