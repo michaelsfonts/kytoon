@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Render the Dirigible One specimen PNG from the built TTF.
+"""Render the Kytoon One specimen PNG from the built TTF.
 
 Shapes the text with HarfBuzz (so kerning is applied) and rasterises each glyph
-with FreeType. Matches the existing specimen layout: text "Dirigible One
+with FreeType. Matches the existing specimen layout: text "Kytoon One
 Regular", black on white, ink box at left=130 / top=95, canvas height 416.
 
     ./venv/bin/python3 make_specimen.py
@@ -12,8 +12,8 @@ import freetype
 import uharfbuzz as hb
 from PIL import Image
 
-TTF = "../fonts/ttf/DirigibleOne-Regular.ttf"
-TEXT = "Dirigible One Regular"
+TTF = "../fonts/ttf/KytoonOne-Regular.ttf"
+TEXT = "Kytoon One Regular"
 TARGET_INK_H = 257      # ink height of the reference specimen
 LEFT_PAD = 130
 TOP_PAD = 95

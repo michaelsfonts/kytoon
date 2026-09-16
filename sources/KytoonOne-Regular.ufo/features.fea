@@ -239,7 +239,6 @@ sub nine by nine.dnom;
 } dnom;
 
 feature frac {
-# automatic
 lookup FRAC {
 	sub slash by fraction;
 } FRAC;

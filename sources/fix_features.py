@@ -20,7 +20,7 @@ import pathlib
 import sys
 
 HERE = pathlib.Path(__file__).resolve().parent
-FEA = HERE / "DirigibleOne-Regular.ufo" / "features.fea"
+FEA = HERE / "KytoonOne-Regular.ufo" / "features.fea"
 REF = HERE / "uppercase_class.fea"
 
 # A healthy class has ~368 glyphs. Anything far below this means it was blanked.

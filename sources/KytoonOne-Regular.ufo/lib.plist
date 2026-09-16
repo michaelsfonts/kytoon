@@ -35,9 +35,14 @@
       </dict>
     </array>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>3436</string>
+    <string>3532</string>
     <key>com.schriftgestaltung.disablesAutomaticAlignment</key>
     <false/>
+    <key>com.schriftgestaltung.font.userData</key>
+    <dict>
+      <key>GSDontShowVersionAlert</key>
+      <true/>
+    </dict>
     <key>com.schriftgestaltung.formatVersion</key>
     <integer>3</integer>
     <key>com.schriftgestaltung.useGlyphOrder</key>

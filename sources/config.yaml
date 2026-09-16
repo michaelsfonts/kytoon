@@ -1,6 +1,6 @@
 sources:
-  - DirigibleOne-Regular.ufo
-familyName: Dirigible One
+  - KytoonOne-Regular.ufo
+familyName: Kytoon One
 outputDir: ../fonts
 buildStatic: true
 buildVariable: false

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Dirigible One from Nunito: offset contours outward, round corners, clean up overlaps."""
+"""Build Kytoon One from Nunito: offset contours outward, round corners, clean up overlaps."""
 
 import argparse
 import math
@@ -262,22 +262,22 @@ def _round_corners(glyph, radius):
 
 
 COPYRIGHT = (
-    "Copyright 2026 The Dirigible One Project Authors "
-    "(https://github.com/michaelsfonts/dirigible)"
+    "Copyright 2026 The Kytoon One Project Authors "
+    "(https://github.com/michaelsfonts/kytoon)"
 )
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Build Dirigible One from a UFO source."
+        description="Build Kytoon One from a UFO source."
     )
     parser.add_argument(
         "input", nargs="?", default="Nunito-Bold.ufo",
         help="Input UFO path (default: Nunito-Bold.ufo)",
     )
     parser.add_argument(
-        "-o", "--output", default="Dirigible-Regular.ufo",
-        help="Output UFO path (default: Dirigible-Regular.ufo)",
+        "-o", "--output", default="Kytoon-Regular.ufo",
+        help="Output UFO path (default: Kytoon-Regular.ufo)",
     )
     parser.add_argument(
         "--offset", type=float, default=28,
@@ -296,14 +296,14 @@ def main():
     print(f"Loading {args.input} ...")
     font = ufoLib2.Font.open(args.input)
 
-    font.info.familyName = "Dirigible One"
+    font.info.familyName = "Kytoon One"
     font.info.styleName = "Regular"
-    font.info.postscriptFontName = "Dirigible-Regular"
-    font.info.openTypeNamePreferredFamilyName = "Dirigible One"
+    font.info.postscriptFontName = "Kytoon-Regular"
+    font.info.openTypeNamePreferredFamilyName = "Kytoon One"
     font.info.openTypeNamePreferredSubfamilyName = "Regular"
-    font.info.styleMapFamilyName = "Dirigible One"
+    font.info.styleMapFamilyName = "Kytoon One"
     font.info.styleMapStyleName = "regular"
-    font.info.openTypeNameUniqueID = "Dirigible-Regular"
+    font.info.openTypeNameUniqueID = "Kytoon-Regular"
     font.info.copyright = COPYRIGHT
 
     processed = 0

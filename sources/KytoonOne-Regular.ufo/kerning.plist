@@ -2,12 +2,22 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>K</key>
+    <dict>
+      <key>public.kern2.v</key>
+      <integer>-52</integer>
+    </dict>
     <key>Lcaron</key>
     <dict>
       <key>public.kern2.T</key>
       <integer>-52</integer>
       <key>public.kern2.Y</key>
       <integer>-51</integer>
+    </dict>
+    <key>O</key>
+    <dict>
+      <key>n</key>
+      <integer>4</integer>
     </dict>
     <key>Yhook</key>
     <dict>
@@ -192,12 +202,27 @@
       <key>public.kern2.quoteleft</key>
       <integer>25</integer>
     </dict>
+    <key>k</key>
+    <dict>
+      <key>public.kern2.v</key>
+      <integer>-1</integer>
+    </dict>
     <key>lslash</key>
     <dict>
       <key>public.kern2.f</key>
       <integer>33</integer>
       <key>public.kern2.t</key>
       <integer>38</integer>
+    </dict>
+    <key>n</key>
+    <dict>
+      <key>e</key>
+      <integer>-17</integer>
+    </dict>
+    <key>o</key>
+    <dict>
+      <key>n</key>
+      <integer>6</integer>
     </dict>
     <key>ohorn</key>
     <dict>
@@ -1232,8 +1257,6 @@
     </dict>
     <key>public.kern1.O</key>
     <dict>
-      <key>n</key>
-      <integer>12</integer>
       <key>public.kern2.A</key>
       <integer>-15</integer>
       <key>public.kern2.J</key>
@@ -3422,7 +3445,7 @@
       <key>public.kern2.h</key>
       <integer>-50</integer>
       <key>public.kern2.n</key>
-      <integer>-19</integer>
+      <integer>-29</integer>
       <key>public.kern2.o</key>
       <integer>-17</integer>
       <key>public.kern2.ord</key>
@@ -3924,7 +3947,7 @@
       <key>public.kern2.n</key>
       <integer>-5</integer>
       <key>public.kern2.o</key>
-      <integer>-28</integer>
+      <integer>-12</integer>
       <key>public.kern2.ord</key>
       <integer>38</integer>
       <key>public.kern2.period</key>
@@ -4149,7 +4172,7 @@
       <key>public.kern2.n</key>
       <integer>12</integer>
       <key>public.kern2.o</key>
-      <integer>5</integer>
+      <integer>15</integer>
       <key>public.kern2.ord</key>
       <integer>28</integer>
       <key>public.kern2.period</key>
@@ -4395,7 +4418,7 @@
       <key>public.kern2.slash</key>
       <integer>-25</integer>
       <key>public.kern2.t</key>
-      <integer>15</integer>
+      <integer>45</integer>
       <key>public.kern2.trademark</key>
       <integer>-9</integer>
       <key>public.kern2.v</key>
@@ -4496,6 +4519,11 @@
       <key>public.kern2.x</key>
       <integer>-5</integer>
     </dict>
+    <key>r</key>
+    <dict>
+      <key>public.kern2.n</key>
+      <integer>-5</integer>
+    </dict>
     <key>racute</key>
     <dict>
       <key>public.kern2.braceright</key>
@@ -4516,6 +4544,16 @@
     <dict>
       <key>public.kern2.fraction</key>
       <integer>-40</integer>
+    </dict>
+    <key>t</key>
+    <dict>
+      <key>public.kern2.o</key>
+      <integer>27</integer>
+    </dict>
+    <key>y</key>
+    <dict>
+      <key>public.kern2.t</key>
+      <integer>51</integer>
     </dict>
     <key>yhook</key>
     <dict>

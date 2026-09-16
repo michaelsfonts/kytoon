@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Build all Dirigible One binaries: otf, ttf, woff2, woff.
+# Build all Kytoon One binaries: otf, ttf, woff2, woff.
 #
 #   ./sources/build.sh        (run from anywhere)
 #
@@ -26,10 +26,10 @@ echo "==> Build otf / ttf / woff2"
 echo "==> Generate woff"
 "$VENV/python3" - <<'PY'
 from fontTools.ttLib import TTFont
-f = TTFont("../fonts/ttf/DirigibleOne-Regular.ttf")
+f = TTFont("../fonts/ttf/KytoonOne-Regular.ttf")
 f.flavor = "woff"
-f.save("../fonts/webfonts/DirigibleOne-Regular.woff")
+f.save("../fonts/webfonts/KytoonOne-Regular.woff")
 print("woff generated")
 PY
 
-echo "==> Done: fonts/{otf,ttf,webfonts}/DirigibleOne-Regular.*"
+echo "==> Done: fonts/{otf,ttf,webfonts}/KytoonOne-Regular.*"

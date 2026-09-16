@@ -1,3 +1,6 @@
 gftools[builder]==0.9.97
 fonttools==4.60.2
 fontmake==3.11.1
+freetype-py==2.5.1
+uharfbuzz==0.51.7
+pillow==11.3.0

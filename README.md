@@ -1,14 +1,14 @@
-# Dirigible One
+# Kytoon One
 
-![Dirigible One specimen](documentation/specimen.png)
+![Kytoon One specimen](documentation/specimen.png)
 
-Dirigible One is a display typeface based on [Nunito](https://github.com/googlefonts/nunito) by Vernon Adams. Every contour has been pushed outward and all corners rounded as far as they go, so the letters look inflated. Single weight, Regular only.
+Kytoon One is a display typeface based on [Nunito](https://github.com/googlefonts/nunito) by Vernon Adams. Every contour has been pushed outward and all corners rounded as far as they go, so the letters look inflated. Single weight, Regular only.
 
-The script that transforms Nunito into Dirigible One is at `sources/dirigible.py`.
+The script that transforms Nunito into Kytoon One is at `sources/kytoon.py`.
 
 ## Download
 
-[Releases](https://github.com/michaelsfonts/dirigible/releases/latest). OTF, TTF, WOFF, WOFF2, or a zip with everything.
+[Releases](https://github.com/michaelsfonts/kytoon/releases/latest). OTF, TTF, WOFF, WOFF2, or a zip with everything.
 
 Same files in [`fonts/`](fonts/).
 
@@ -39,7 +39,7 @@ Build:
 
 The new font files will appear in `fonts/ttf/`, `fonts/otf/`, and `fonts/webfonts/`.
 
-The build reads the finished source `sources/DirigibleOne-Regular.ufo`. This is the shipped UFO with all the outline corrections, not the raw output of `dirigible.py` (see below).
+The build reads the finished source `sources/KytoonOne-Regular.ufo`. This is the shipped UFO with all the outline corrections, not the raw output of `kytoon.py` (see below).
 
 `build.sh` runs `gftools builder config.yaml` for you and adds two things gftools does not do on its own. First, it checks `features.fea` before building, because Glyphs sometimes exports an empty `@Uppercase` list that makes the build crash, and it fixes that if it finds it. Second, it creates the `.woff` file, since gftools only produces `woff2`.
 
@@ -47,21 +47,21 @@ Note: you can still run `cd sources` and `gftools builder config.yaml` yourself,
 
 ## Regenerating the UFO from Nunito
 
-The script `sources/dirigible.py` is what turns a Nunito UFO source into the inflated base shapes for Dirigible One. You only need this if you want to rebuild the source from scratch.
+The script `sources/kytoon.py` is what turns a Nunito UFO source into the inflated base shapes for Kytoon One. You only need this if you want to rebuild the source from scratch.
 
 To run it, `cd` into `sources/` and point the script at a Nunito UFO file:
 
 ```
 cd sources
-python dirigible.py path/to/Nunito-Regular.ufo
+python kytoon.py path/to/Nunito-Regular.ufo
 ```
 
-It will write a new `Dirigible-Regular.ufo` next to the script. This filename is intentionally different from the shipped source (`DirigibleOne-Regular.ufo`) so the script cannot overwrite it. You can open the output in Glyphs or any other UFO editor.
+It will write a new `Kytoon-Regular.ufo` next to the script. This filename is intentionally different from the shipped source (`KytoonOne-Regular.ufo`) so the script cannot overwrite it. You can open the output in Glyphs or any other UFO editor.
 
-Note: this script only produces the base inflated shapes from Nunito. It does not include the outline corrections that the shipped `DirigibleOne-Regular.ufo` has. Think of the script's output as a starting point, not a finished font.
+Note: this script only produces the base inflated shapes from Nunito. It does not include the outline corrections that the shipped `KytoonOne-Regular.ufo` has. Think of the script's output as a starting point, not a finished font.
 
 ## License
 
-Dirigible One is licensed under the [SIL Open Font License, Version 1.1](OFL.txt).
+Kytoon One is licensed under the [SIL Open Font License, Version 1.1](OFL.txt).
 
-Nunito was originally designed by Vernon Adams. Dirigible One is a derivative work by Michael Seh.
+Nunito was originally designed by Vernon Adams. Kytoon One is a derivative work by Michael Seh.
